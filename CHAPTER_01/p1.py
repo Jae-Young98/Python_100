@@ -18,6 +18,6 @@ print('d 변수의 값은?', d)
 print(a, b, c, d)
 
 # Multiple assignment
-a = b = c = d = e = 100
+a = b = c = d = e = 100, 200
 print('[결과출력]')
-print(a, b, c, d, e)
+print(b, type(b))
